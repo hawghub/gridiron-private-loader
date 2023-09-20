@@ -1,0 +1,7 @@
+repeat wait() until game:GetService("Players") and game:GetService("Players").LocalPlayer
+local gameId = game.GameId
+
+--// Gridiron
+if gameId == 2791229920 then
+  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/40909c27331bc7d52256194590a7551f.lua"))()
+end
